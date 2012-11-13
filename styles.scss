@@ -1,0 +1,15 @@
+@import "compass";
+
+.smallquote {
+  border-left: #ccc 0.5em solid;
+  margin-left: 3em;
+  p, li {
+    text-align: left;
+    font-size: 40px;
+  }
+  ol > li,
+  ul > li {
+    list-style-position: inside;
+    margin-bottom: 0.33em;
+  }
+}

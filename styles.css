@@ -1,0 +1,16 @@
+/* line 3, styles.scss */
+.smallquote {
+  border-left: #ccc 0.5em solid;
+  margin-left: 3em;
+}
+/* line 6, styles.scss */
+.smallquote p, .smallquote li {
+  text-align: left;
+  font-size: 40px;
+}
+/* line 11, styles.scss */
+.smallquote ol > li,
+.smallquote ul > li {
+  list-style-position: inside;
+  margin-bottom: 0.33em;
+}
